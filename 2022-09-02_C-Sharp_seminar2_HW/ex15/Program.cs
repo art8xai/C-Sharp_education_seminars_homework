@@ -7,7 +7,7 @@
         // Clear the console from the previous launch of the program
         Console.Clear();
 
-        // Second digit search function (method)
+        // Function (method) to check if a day is a holiday
         void WhatDayIs(int x)
         {
             if (x >= 6) Console.WriteLine("Yes");
