@@ -16,7 +16,7 @@
             var array = new double[2];
             // See more about line–line intersection https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection.
             // The x and y coordinates of the point of intersection of two non-vertical lines can easily be found using the following substitutions and rearrangements.
-            // Suppose that two lines have the equations y = k1x + b1 and y = k2x + b2 where k1 and k2 are the slopes (gradients) of the lines and where b1 and b2 are the y-intercepts of the lines.
+            // Suppose that two lines have the equations y = k1 * x + b1 and y = k2 * x + b2 where k1 and k2 are the slopes (gradients) of the lines and where b1 and b2 are the y-intercepts of the lines.
             // At the point where the two lines intersect (if they do), both y coordinates will be the same, hence the following equality:
             // k1 * x + b1 = k2 * x + b2
             // We can rearrange this expression in order to extract the value of x,
